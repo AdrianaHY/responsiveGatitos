@@ -45,3 +45,14 @@ html , body{
    width:70%;
   }
 }
+
+
+@media (min-width:669px) and (max-width:768px){
+  #contenedorImagen{
+   background-image: url(../img/dawn.png);
+   background-size: cover;
+  }
+  #imagenGato{
+   content: url(../img/kitten-medium.png);
+  }
+}
