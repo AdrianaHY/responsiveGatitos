@@ -19,17 +19,18 @@ html , body{
   align-content: center;
   justify-content: center;
 }
-div{
-  background-image: url(../img/kitten-medium.png);
-  background-size: cover;
+#imagenGato{
+  width: 50%;
 }
 
-@media (min-width:569px) and (max-width:668px){
+
+@media (min-width:0px) and (max-width:536px){
   #contenedorImagen{
-   background-image: url(../img/dawn.png);
+   background-image: url(../img/maxresdefault.jpg);
    background-size: cover;
   }
-  /*img{
-   src: url(../img/kitten-medium.png);
-  }*/
+  #imagenGato{
+   content: url(../img/kitten-small.png);
+   width:70%;
+  }
 }
