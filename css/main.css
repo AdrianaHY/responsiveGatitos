@@ -34,3 +34,14 @@ html , body{
    width:70%;
   }
 }
+
+@media (min-width:537px) and (max-width:668px){
+  #contenedorImagen{
+   background-image: url(../img/dawn.png);
+   background-size: cover;
+  }
+  #imagenGato{
+   content: url(../img/kitten-large.png);
+   width:70%;
+  }
+}
