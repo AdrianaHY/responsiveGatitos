@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html , body{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  display: flex;
+}
+#contenedorImagen{
+  background-image: url(../img/Landscape.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+div{
+  background-image: url(../img/kitten-medium.png);
+  background-size: cover;
+}
+
+@media (min-width:569px) and (max-width:668px){
+  #contenedorImagen{
+   background-image: url(../img/dawn.png);
+   background-size: cover;
+  }
+  /*img{
+   src: url(../img/kitten-medium.png);
+  }*/
+}
