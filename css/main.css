@@ -56,3 +56,12 @@ html , body{
    content: url(../img/kitten-medium.png);
   }
 }
+@media (min-width:769px){
+  #contenedorImagen{
+   background-image: url(../img/Landscape.jpg);
+   background-size: cover;
+  }
+  #imagenGato{
+   content: url(../img/kitten-medium.png);
+  }
+}
